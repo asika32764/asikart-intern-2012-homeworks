@@ -1,0 +1,32 @@
+ul li{
+    color:green
+    }
+a{
+    color:blue;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+a:active{
+    font-weight: bolder;
+}
+ul li{
+    border-top: 1px solid black;
+}
+ul li:first-child{
+    border-top: none;
+    color: red;
+}
+.true-element::first-letter{
+    font-size: 30px;
+}
+.true-element::after{
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    display: block;
+    content: "This is false element.";
+}

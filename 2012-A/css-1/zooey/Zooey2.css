@@ -1,0 +1,53 @@
+body{background-color:#fff8dc
+}
+/*功能表*/
+#navigation{
+ font-family: Times New Roman;
+ font-size: 14px;
+ text-align: right
+}
+#navigation ul{
+ list-style-type:none;
+ margin: 0px;
+ padding: 0px;
+}
+
+#navigation li{
+ border-bottom: 1px solid #9F9FED;
+ float: left;
+}
+ 
+#navigation li a{
+ width: 200.9px;
+ display: block;
+ height: 1em;
+ padding: 5px 5px 5px 0.5em;
+ text-decoration: none;
+ border-left: 12px solid #151571;
+ border-right: 1px solid #151571;
+}
+
+#navigation li a:link, #navigation li a:visited{
+ background-color: #000000;
+ color: #FFFFFF;
+}
+#navigation li a:hover{
+ background-color: #ffffff;
+ color: #000000;
+ border-left: 12px solid #0000ff;
+}
+/*功能表結束*/
+
+
+
+/*偽類*/
+#link1 li a:hover{
+ color: #00ff80;
+ text-decoration: underline
+}
+
+#link2 li a:hover{
+ background-color: #ffffff;
+ color: #000000;
+ border-left: 12px solid #0000ff;
+}

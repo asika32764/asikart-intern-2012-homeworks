@@ -1,0 +1,115 @@
+#main-background{
+    width:85%;
+    background: #FFF9B9;
+    color:#321;
+    padding:5px 15px;
+    margin-left: 5%;
+    margin-right: 5%;    
+}
+#banner{
+    background:#25A;
+    color:white;    
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 10px;    
+    font:35px "Nexa Bold";
+}
+.body{
+    font:25px "Nexa Bold";
+}
+.clear-fix{
+    clear:both;    
+}
+.bottom{
+    text-align: center;
+    font:25px "Nexa Bold";
+    padding-top: 10px;
+}
+
+.left{
+    display: none;
+}
+#main-body{
+    float:left;    
+}
+.right{
+    float:right;
+    background: #6CC;
+    width: 20%;
+    height: 250px;
+}
+#main-body{
+    width: 75%;    
+    background: #AAA;
+    margin-left: 3%;
+}
+.artist{    
+    margin: 10px;
+    background: #FCC;    
+}
+
+h3{
+    padding:10px;
+    font-style: italic;
+    color:#33D;
+}
+h3:hover{
+    background: #EEE;
+    text-align: center;
+    
+}
+#right-title,
+#right-new-title{    
+    margin: 5px;
+    text-align: center;
+    font-size: 25px;
+    color:#234395;
+    font-weight: bold;
+}
+.right{
+    font-size: 20px;
+    margin: 50px 0px;
+}
+.right-new{
+    float:right;
+    background: #D97;
+    margin-bottom: 50px;
+    width: 20%;
+    height: 230px;
+    font-size: 20px;
+}
+.bottom{
+    width:100%;    
+    background: #D99;
+    float:left;
+    height:50px;    
+    margin-top:10px;   
+}
+.bottom:hover{    
+    width:100%;
+    background: #DC6;    
+}
+.popular,
+.new{
+    margin: 5px;
+    padding: 5px;
+    font-size: 16px;
+    color:#702714;
+}
+.popular:hover,
+.new:hover{
+    background: white;
+}
+.context{
+    padding: 0px 15px 10px 15px;
+    text-indent: 2em;
+}
+.readAll{
+    font:20px "Nexa Bold";
+    color:#33D;    
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+.readAll:hover{
+    text-decoration:underline;
+}

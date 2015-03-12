@@ -1,0 +1,14 @@
+#banner {
+margin-left: 207px;
+margin-top: 30px;
+width: 343px;
+height: 490px;
+overflow: auto;
+padding: 0px 5px 0px 5px;
+scrollbar-highlight-color: #eee;
+scrollbar-3dlight-color: #fff;
+scrollbar-shadow-color: #eee;
+scrollbar-darkshadow-color: #fff;
+scrollbar-face-color: #fff;
+scrollbar-track-color: #fff;
+scrollbar-arrow-color: #fff;

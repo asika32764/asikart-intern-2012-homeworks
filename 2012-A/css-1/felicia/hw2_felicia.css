@@ -1,0 +1,79 @@
+div.animal,
+div.reptilia,
+div.aves {
+        width: 200 px;
+        height: 200 px;
+	float: left;
+        margin: 20 px;
+        padding: 10 px;
+    }
+
+
+div.animal {
+        background-color: #FFCCCC;
+}
+
+div.reptilia {
+        background-color: #CCFFCC;
+}
+
+div.aves {
+        background-color: #CCFFFF;
+    
+}
+
+#baby {
+    background-image: url(image/baby.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#cat {
+    background-image: url(image/cat.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#dog {
+    background-image: url(image/dog.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#mouse {
+    background-image: url(image/mouse.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#lizard {
+    background-image: url(image/lizard.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#bird {
+    background-image: url(image/bird.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#blank {
+        width: 850 px;
+        height: 560 px;
+}
+
+a:hover {
+    color: #dc143c;
+}
+
+div.non-sense::after {
+    	width: 80px ;
+	height: 80px ;
+	background-color: #FF7F50 ;
+	color: white ;
+	margin: 5px;
+	display:block;
+	content: "1234567890" ;
+}
+
+div.non-sense::first-letter {
+    font-size: 18px;
+}
+

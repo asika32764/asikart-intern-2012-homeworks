@@ -1,0 +1,113 @@
+    #link{
+	border: #06c solid 1pt;			    
+	font-size: 30px;
+	color: #3CF;
+    }
+    #title{		
+	color:blue;		
+   }
+    .srectWay{
+	text-transform: capitalize;		
+    }
+    .scret{
+	text-transform: uppercase;
+    }
+    .top{
+        text-decoration: none;        
+        margin: 5px;
+        color: #09F;
+        font-size: 20pt;
+        border: #333 dotted 2pt;
+    }
+    .top:hover{
+	color:#F69;
+    }
+    .firstLink:link{		
+	text-decoration: none;
+	color:#c12;
+    }
+    .firstLink:hover{
+	font-weight: bold;
+    }
+    .firstLink:visited{
+	color:#739;
+    }
+    .firstLink{
+	margin: 20px;
+	border: #d30 dashed 5px;		
+	font-size: 25px;
+	padding: 10px;
+    }	    
+    .TextTitle{
+	background-color: #095;
+	color:white;
+    }
+   /*
+    .webLink{
+	color: red;
+	text-decoration: none;
+	border: #0D4 dashed 1px;
+    }
+    */
+    #infSource{
+	border: #3C3 dotted 5px;
+	padding: 20px;		
+    }
+    .fun{
+	background: black;
+    }
+    .fun:hover{
+	background: red;
+	color:red;
+    }	    
+    .pit{
+	float: right;margin-left: 50px;
+    }
+    #fLink{
+	height: 40px;
+	padding-top:10px;
+    }    
+
+    .webLink{
+        background-color: #F63;
+        text-decoration: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 15pt;
+        #356702;
+        #red
+    }
+    #yahooHat{
+        border-top:#FFF dotted 2px;
+        border-bottom:#FFF dotted 2px;
+        color:red;
+        text-decoration: none;
+    }
+    .webLink:hover{       
+        background-color: #F6C;
+        font-size:20pt;
+        padding-top: 15pt;
+        padding-bottom: 15pt;
+        margin:10pt;
+        
+    }
+    #yPoint{
+        font-weight: bolder;
+    }
+    .Context{
+        line-height: 1.5;
+    }
+    ul li{
+        font-size: 15pt;
+        font-weight: bold;
+    }
+    .author{
+        color:blue;
+        font-size:15pt;
+        font-weight: bold;
+    }
+    .webLink-context{
+        text-decoration: none;
+        color:white;
+        font-family: "·L³n¥¿¶ÂÅé"
+    }

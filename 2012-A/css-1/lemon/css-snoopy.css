@@ -1,0 +1,54 @@
+
+
+/* a 連結滑鼠移過變色 */
+
+.link:link{		
+	text-decoration: none;
+    }
+.link:hover{
+	font-weight: bold;
+	color: hotpink;
+	
+    }
+.link:visited{
+	font-weight: bold;
+	color: khaki;
+    }
+.top{
+        text-decoration: underline;        
+        margin: 5px;
+        color: mediumblue;
+        font-weight: bold;
+       
+}
+.top:hover{
+	color: lightblue;
+	}
+.top:active{
+	color: red;
+}
+  
+#snoopy
+{
+	background-image: url(snoopy.jpg);
+	color: white;
+	height: 380px;
+	width:400px;
+	text-align:center;
+	
+	
+}
+/*加入框線*/
+div.bug.leg-6 {
+	border: 3px dashed violet ;
+	width: 300px;
+    }
+/*特殊線外框*/    
+.title3 
+{
+BORDER-RIGHT: #ffcc66 1px outset;
+BORDER-TOP: #ffcc66 1px outset;
+BORDER-LEFT: #ffcc66 1px outset;
+BORDER-BOTTOM: #ffcc66 1px outset
+}    
+	

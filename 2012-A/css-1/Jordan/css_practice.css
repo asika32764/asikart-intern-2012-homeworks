@@ -1,0 +1,119 @@
+h1{
+    color: green ;
+    letter-spacing: 2em;
+    line-height: 5em;
+    text-align: center ;
+}
+body{
+    font-family: "微軟正黑體" ;
+}
+/*指定大小分別 hover必須放在link後功能才會正常*/
+.top-link:link{
+    color: green ;
+}
+.top-link:hover{
+    color: yellow ;
+}
+.top-link#id_remind:hover{
+    color: orange ;
+}
+.top-link#id_file_download:hover{
+    color: pink;
+}
+
+p.top{
+    text-align: right ;
+    font-size: 24px ;
+}
+
+.bt:hover{
+    color: orange ;
+}
+
+table#week{
+    text-align: center;
+    border-left: dotted 2px #D4F8D4;
+    border-top: dashed 4px #91C7FF;
+    border-right: solid 6px #D8BAF4 ;
+    border-bottom: double 8px #D4F8D4;
+}
+
+table#calender{
+    border: solid 4px #EB8887 ;
+}
+
+#calender th{
+    font-size: 24px;
+    border: solid 2px #EFA2A1;
+}
+#calender td{
+    border: dashed 2px #EFC9A1;
+    text-align: center ;
+}
+#week th{
+    border: solid 2px #CECDFF ;
+}
+
+img{
+    height: 170px ;
+    width: 170px ;
+    float: left ;
+    margin: 20px ;
+}
+ul.a{
+    padding: 25px;
+}
+.link{
+    text-decoration: none ;
+    color: #8ADF39 ;
+}
+
+.link:hover{
+    color: red ;
+    font-size: 20px;
+}
+.link:hover#rbgoogle{
+    font-style: oblique ;
+    color: orange ;
+}
+.link:hover#desygoogle{
+    font-style: inherit ;
+    color: #AB6DE7 ;
+}
+.imgs{
+    float: left ;
+    }
+.good{
+    width: 300px ;
+    height: 300px ;
+    border: dashed 2px blue ;
+    margin: 10px;
+}
+            
+.bad{
+    border: dashed 3px ;
+    width: 400px ;
+    height: 400px ;
+    margin: 10px;
+}
+#lf{
+    background: red url(1.jpg);
+    font-size: 24px;
+    color: #FF9D37 ;
+    text-align: center ;
+}
+#bo{
+    background: red url(2.jpg) center no-repeat;
+}
+#mj{
+    background: yellow url(3.jpg) repeat-x;
+}
+#iw{
+    background: yellow url(4.jpg) repeat-y;
+}
+#bb{
+    background: pink url(5.jpg) right bottom no-repeat;
+}
+#rain{
+    background: green url(6.jpg) left bottom repeat-x;
+}

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+  <head>
+    <b:include data='blog' name='all-head-content'/>
+    <title><data:blog.pageTitle/></title>
+    <b:skin><![CDATA[
+/* --- * Blogger Template Style---- * Name: Desert----- *Designer: J.aghili ----- * URL: www.finalsense.com ------ * Date: 2007 August ----- */
+/* Variable definitions
+   ====================
+
+   <Variable name="textcolor" description="Text Color"
+             type="color" default="#555" value="#555555">
+             
+   <Variable name="PageBgColor" description="Page Background Color"
+             type="color" default="#bca572" value="#bca572">
+
+   <Variable name="pagetitlecolor" description="Page Header Color"
+             type="color" default="#ffc" value="#ffffcc">
+
+   <Variable name="datecolor" description="Date Header Color"
+             type="color" default="#fff" value="#ffffff">
+
+   <Variable name="titlecolor" description="Post Title Color"
+             type="color" default="#bca572" value="#bca572">
+
+    <Variable name="titlehovercolor" description="Post Title Hover Color"
+             type="color" default="#ffc" value="#ffffcc">
+             
+   <Variable name="footercolor" description="Post Footer Color"
+             type="color" default="#877256" value="#877256">
+
+   <Variable name="sidebartextcolor" description="Sidebar Text Color"
+             type="color" default="#65828e" value="#65828e">
+
+   <Variable name="sidebarcolor" description="Sidebar Title Color"
+             type="color" default="#877256" value="#877256">
+             
+   <Variable name="sidebarlink" description="Sidebar Link Color"
+             type="color" default="#65828e" value="#65828e">
+             
+   <Variable name="sidebarhover" description="Sidebar Hover Color"
+             type="color" default="#fff" value="#ffffff">          
+
+   <Variable name="linkcolor" description="Link Color"
+             type="color" default="#65828e" value="#65828e">
+
+   <Variable name="linkhover" description="Link Hover Color"
+             type="color" default="#f63" value="#ff6633">
+             
+   <Variable name="visitedlinkcolor" description="Visited Link Color"
+             type="color" default="#65828e" value="#65828e">
+             
+   <Variable name="descriptioncolor" description="Description Color"
+             type="color" default="#fff" value="#ffffff">
+
+   <Variable name="Commentscolor" description="Comments Text Color"
+             type="color" default="#555" value="#555555">   
+             
+   <Variable name="bodyfont" description="Text Font"
+             type="font" default="normal normal 83% Verdana, sans-serif" value="normal normal 83% Verdana, sans-serif">
+
+   <Variable name="pagetitlefont" description="Page Header Font"
+             type="font" default="normal normal 330% 'Georgia','Times New Roman'" value="normal normal 330% 'Georgia','Times New Roman'">
+
+   <Variable name="titlefont" description="Post Title Font"
+             type="font" default="normal bold 100% 'Georgia','Times New Roman'" value="normal bold 100% 'Georgia','Times New Roman'">
+
+   <Variable name="sidebarheaderfont" description="Sidebar Title Font"
+             type="font" default="normal bold 100% 'Georgia','Times New Roman'" value="normal bold 100% 'Georgia','Times New Roman'">
+       
+       <Variable name="sidebarfont" description="Sidebar Text Font"
+             type="font" default="normal normal 90% 'Verdana','Arial'" value="normal normal 90% 'arial','tahoma'">      
+         
+   <Variable name="descriptionfont" description="Description Font"
+             type="font" default="normal normal 90% 'Verdana','Arial'" value="normal normal 90% 'Verdana','Arial'">      
+*/
+/* ---( page defaults )--- */
+body { margin: 0px;  padding: 0px;  text-align: left;  font:$bodyfont; color:$textcolor;  background: $PageBgColor }
+blockquote {  margin: 0 0 0 30px;  padding: 0px 0 0 20px;  font-size: 88%;  line-height: 1.5em; }
+blockquote p {  margin-top: 0;  }
+abbr, acronym {  cursor: help;  font-style: normal;  }
+code {  color: #f63;  }
+hr {  display: none;  }
+img {  border: none;  }
+
+/* unordered list style */
+ul {  list-style: none;  margin-left: 7px;  padding: 0;  }
+li {  list-style: none;  padding-left: 8px;  margin-bottom: 3px;  }
+
+/* links */
+a:link {  color: $linkcolor; text-decoration: none;  }
+a:visited {  color: $visitedlinkcolor; text-decoration: none;  }
+a:hover {  color: $linkhover; text-decoration: none;  }
+a:active { color: $visitedlinkcolor; text-decoration: none;  }
+
+/* ---( layout structure )---*/
+#outer-wrapper {  width: 1000px;  margin: 0px auto 0;  text-align: justify;  font: normal normal 100% Verdana, sans-serif; }
+#content-wrapper {  margin-left: 0px; /* to avoid the border image */  width: 100%;  }
+#main {  float: left;  width: 650px;  margin: 0px; padding-left:45px;  line-height: 1.5em;  word-wrap: break-word; /* fix for long text breaking sidebar float in IE */  overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */  }
+#sidebar {  float: right;  width: 250px;  padding-right: 18px;  font: $sidebarfont; color: $sidebartextcolor; line-height: 1.4em;  word-wrap: break-word; /* fix for long text breaking sidebar float in IE */  overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */  }
+#center {background: url('http://lh6.google.com/jvdmds/RteAFFV20CI/AAAAAAAAAjc/8vAPtdmJTsE/desert-2.jpg') repeat-y top left;}
+
+/* ---( header and site name )--- */
+#header-wrapper {  margin: 0; padding: 0px}
+#header {  height:319px; width:1000px; color: $pagetitlecolor;   background: url('http://lh3.google.com/jvdmds/Rtd-nVV20AI/AAAAAAAAAi0/i5D_pvCin5M/desert-1.jpg') no-repeat top left;  }
+#header h1 { width: 380px; font: $pagetitlefont; padding: 150px 20px 5px 570px; filter: glow(color=#000000,Strength=5); text-align: right; }
+#header h1 a {  text-decoration: none;  color: $pagetitlecolor;  }
+#header h1 a:hover {  color: $descriptioncolor;}
+#header .description { margin:-10px 20px 20px 600px; text-align: right; padding-right:20px;  width:350px; font: $descriptionfont;  color: $descriptioncolor; }
+
+/* ---( main column )--- */
+h2.date-header {  margin: 0;  padding-left: 10px;  font-size: 70%;  color: $datecolor;}
+.post h3 {  margin: 0;  font: $titlefont;  color: $titlecolor; border-bottom: 1px solid #bca572; border-top: 1px solid #bca572;}
+.post {  margin-left:0; margin-right:0; margin-top:0; margin-bottom:1em; padding-left:10px; padding-right:0; padding-top:0; padding-bottom:1em  }
+.post h3 a {color: $titlecolor; text-decoration: none;}
+.post h3 a:hover {   color: $titlehovercolor;  text-decoration: none; }
+.post-footer {  margin: 0;  padding: 0px; text-align: right;  font-size: 88%;  color:$footercolor;}
+.post img {  padding: 6px;  border-top: 1px solid #ddd;  border-left: 1px solid #cccccc;  border-bottom: 1px solid #c0c0c0;  border-right: 1px solid #c0c0c0;  }
+.feed-links {  clear: both;  line-height: 2.5em; color:$footercolor;}
+.blog-feeds { text-align: right; color:$footercolor; border-top: 1px solid #bca572;}
+#blog-pager-newer-link {  float: right; }
+#blog-pager-older-link {   float: left; }
+#blog-pager {     text-align: center;  }
+
+/* comment styles */
+#comments {  padding-top: 10px;  font-size: 85%;  line-height: 1.5em;  color: $Commentscolor;}
+#comments h4 {  margin: 20px 0 15px 0;  padding: 8px 0 0 40px;  font-family: "Lucida Grande", "Trebuchet MS";  font-size: 105%;  color: $Commentscolor;  height: 29px !important; /* for most browsers */  height /**/:37px; /* for IE5/Win */  }
+#comments ul {  margin-left: 0;  }
+#comments li {  background: none;  padding-left: 0;  }
+.comment-body {  padding: 0 10px 0 25px;  }
+.comment-body p {  margin-bottom: 0;  }
+.comment-author {  margin: 4px 0 0 0;  padding: 0 10px 0 60px;  color: #999;    }
+.comment-footer {  border-bottom: 1px solid #ddd;  padding-bottom: 1em;}
+.deleted-comment {  font-style:italic;  color:gray;  }
+
+/* ---( sidebar )--- */
+.sidebar h2 {   margin: 0 0 0 0;  padding: 10px 0 0 0px; font: $sidebarheaderfont;  color: $sidebarcolor;  height: 32px;  height: 32px !important; /* for most browsers */  height /**/:57px; /* for IE5/Win */  }
+.sidebar .widget {  margin: 0;  padding: 0 0 10px 10px; }
+.sidebar a {color: $sidebarlink; text-decoration: none;}
+.sidebar a:hover {color: $sidebarhover; }
+.sidebar li { padding-left: 5px;  }
+.profile-textblock {  margin:.5em 0 .5em; }
+.profile-img { float: left;  margin: 0 5px 5px 0;  border: 1px solid #ddd;  padding: 4px;}
+
+/* ---( footer )--- */
+.clear { /* to fix IE6 padding-top issue */  clear: both;  }
+#footer-wrapper {margin: 0px;  padding:0 0 0 0;  font-size: 70%;  clear: both; }
+#footer {margin: 0; width: 1000px; height:94px; background: url('http://lh4.google.com/jvdmds/Rtd-nlV20BI/AAAAAAAAAi8/1MpGZVVQziM/desert-3.jpg') no-repeat top left; text-align:center; color: #555555; }
+#footer-wrapper a { color: #555555; text-decoration: none; line-height:94px;}
+#footer-wrapper a:hover{  color: #ffc;  text-decoration: none;}
+
+/** Page structure tweaks for layout editor wireframe */
+body#layout #outer-wrapper,
+body#layout #main,
+body#layout #sidebar {   padding-top: 0;  margin-top: 0;}
+body#layout #outer-wrapper,body#layout #content-wrapper {   width: 770px;}
+body#layout #sidebar {   margin-right: 0;  margin-bottom: 1em; }
+body#layout #header,body#layout #footer,
+body#layout #main {  padding: 0; }
+body#layout #content-wrapper {   margin: 0px; }
+#navbar-iframe {   height:0px;   visibility:hidden;   display:none   } 
+
+
+
+]]></b:skin>
+  </head>
+
+  <body>
+  <div id='outer-wrapper'><div id='wrap2'>
+
+    <!-- skip links for text browsers -->
+    <span id='skiplinks' style='display:none;'>
+      <a href='#main'>skip to main </a> |
+      <a href='#sidebar'>skip to sidebar</a>
+    </span>
+ <div id='center'>
+    <div id='header-wrapper'>
+      <b:section class='header' id='header' maxwidgets='1' showaddelement='no'>
+<b:widget id='Header1' locked='true' title='Free Blogger Templates (Header)' type='Header'/>
+</b:section>
+    </div>
+
+    <div id='content-wrapper'>
+
+      <div id='main-wrapper'>
+        <b:section class='main' id='main' showaddelement='no'>
+<b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog'/>
+</b:section>
+      </div>
+
+      <div id='sidebar-wrapper'>
+        <b:section class='sidebar' id='sidebar' preferred='yes'>
+<b:widget id='Profile1' locked='false' title='About Me' type='Profile'/>
+<b:widget id='BlogArchive1' locked='false' title='Blog Archive' type='BlogArchive'/>
+</b:section>
+      </div>
+
+      <!-- spacer for skins that want sidebar and main to be the same height-->
+      <div class='clear'>?</div>
+
+    </div> <!-- end content-wrapper -->
+
+<div class='footer section' id='footer'><div id="footer-wrapper">
+Design by:  <a title="Blogger Templates" href="http://www.finalsense.com/services/blog_templates/" shape="rect">FinalSense</a> 
+  </div>
+</div>
+     </div> <!--end center-->
+  </div></div> <!-- end outer-wrapper -->
+</body>
+</html>

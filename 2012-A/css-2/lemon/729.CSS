@@ -1,0 +1,158 @@
+.article{
+    margin: 10px;
+    background-color: #FFAFD6;
+    padding: 10px;
+    color: #000;
+    border-left :5px solid #FFE7CD; /*¥ª®Ø½u*/ 
+    border-right : 5px solid #FFE7CD; /*¥k®Ø½u*/
+    border-top:5px solid #FFE7CD;
+    border-bottom: 5px solid #FFE7CD;
+
+}
+.article_1{
+    margin: 10px;
+    background-color: #FFC991;
+    padding: 10px;
+    border-left :3px solid #000; /*¥ª®Ø½u*/ 
+    border-right : 3px solid #000; /*¥k®Ø½u*/
+    border-top:3px solid #000;
+    border-bottom: 3px solid #000;
+}
+
+
+#main-wrap{
+    width: 1000px;
+    color:  #fff ;
+    padding: 10px ;
+}
+#banner{
+    background-image: url(banner.gif) ;
+    color: #fff;
+    width: 1000px;
+    height: 220px;
+    
+    
+}
+.right-bar{
+    width:30%;
+    height: 1230px;
+    background-color: #EBBA87;
+    float: right;
+}
+.bar{
+    width:20px;
+    height:30px;
+    color: #fff;
+}
+.body{
+    width: 70%;
+    he/ight:800px;
+    background-color: #FDFF73;
+}
+
+.body{
+   float: left;    
+}
+
+
+#menu{
+    width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom: 2px solid  #FFAFD6;
+	margin-top: 0px;
+	padding: 0px;
+	margin-bottom: 5px;
+       
+}
+#menu ul {
+	white-space: nowrap; 
+	margin-top: 0px;
+	margin-bottom: 2px;
+	padding: 0px;
+	border-top: 1px solid #999;
+	border-bottom: 1px  solid  #FFAFD6  ;
+	
+}
+
+#menu ul li {
+	position: relative;
+	list-style-type: none;
+
+
+}
+
+#menu ul li a{
+	text-decoration: none;
+	color: #666;
+	display: block;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	padding: 5px 20px 5px 20px;
+}
+
+
+}
+
+#menu ul li a:only-child{
+	background: none;
+}
+
+#menu ul li:hover > a{
+	color: #fff;
+	background: #FFB0AF;
+}
+
+#menu > ul > li{
+	display: inline-block;
+	padding: 0px;
+}
+
+h1{
+    vertical-align: middle;
+    color: #FF9291;
+    font-weight: bold; 
+    
+}
+h1:hover{
+    color: #91FF92;
+}
+
+h3{
+    vertical-align: middle;
+    
+    font-weight: bold; 
+    background-color:  FF9291;
+}
+
+
+#photo {
+        margin: 10px;
+        padding: 10px;
+        color: #000;
+	height: auto;
+	width: auto;
+	
+}
+.img {
+	height: 120px;
+	width: 80px;
+	float: left;
+	margin: 10px;
+	padding: 2px ;
+        border-left :3px solid #FFE7CD;  
+        border-right : 3px solid #FFE7CD; 
+        border-top:3px solid #FFE7CD;
+        border-bottom: 3px solid #FFE7CD;
+        
+        }
+ .fb {      
+    width:95px;
+    height:24px;
+    font-size:12px;
+    color:##FFFF33;
+    background-color:#3B5998;
+    border-style:outset;
+    text-align:center;
+    cursor:pointer;
+ }

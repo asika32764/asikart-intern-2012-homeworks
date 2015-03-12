@@ -1,0 +1,149 @@
+/*blog css*/
+body
+{
+	background:url(images/bg.jpg);
+	font-size: 12pt;
+	line-height: 2em;
+}
+#banner
+{
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+	background: #FFF;
+	margin: 20px 0 20px 0;
+	height: 250px;
+	padding: 40px;
+	position: relative;
+	width: 1100px;
+	
+}
+#col1 
+{
+	float: left;
+	width: 310px;
+	overflow: hidden;
+}
+#col2 
+{
+	float: right;
+	width: 310px;
+	overflow: hidden;
+}
+#logo 
+{
+	
+	line-height: 125px;
+	top: 0;
+	left: 20px;
+	height: 125px;
+	text-shadow: 1px 1px 0px rgba(255,255,255,0.9);
+}
+#logo a 
+{
+	text-decoration: none;
+	color: #000;
+	font-family: Satisfy, script;
+	font-size: 3em;
+}
+#main-wrap
+{
+	#background-color: green;/*¤è«KDebug*/
+	color: #fff;
+	margin: 20px auto 0 auto;
+	width: 1180px;
+	padding:10px;
+	position: relative;
+
+}
+#menu
+{
+font-family: Kreon, sans-serif;
+background:url(images/bg2.jpg);	
+line-height:65px;
+text-shadow: 1px 1px 0px rgba(0,0,0,0.6);
+}
+#menu a {
+	font-size: 1.25em;
+	text-decoration: none;
+	color: #FFF;
+}
+
+#menu ul li {
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+#search 
+{
+	line-height: 125px;
+	top: 60px;
+	position: absolute;
+	right: 0;
+}
+#search input.form-submit {
+	margin-left: 1em;
+	background:url(images/bg2.jpg);
+	font-family: Kreon, sans-serif;
+	border: 0;
+	color: #FFF;
+	padding: 5px;
+	text-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+	box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.25), 0px 0px 6px 0px rgba(255,255,255,0.9);
+}
+#search input.form-text {
+	padding: 5px;
+	border: 0;
+	background: rgba(62,59,57,0.5);
+	box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.5), 0px 0px 6px 0px rgba(255,255,255,0.9);
+	color: #fff;
+	width: 290px;
+}
+.right-bar
+{
+    width: 25%;
+    height: 800px;
+    background:blue; 
+}
+.body
+{
+	background: #FFF;
+	width: 700px;
+	padding:45px;
+	float: left;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+}
+.clearfix
+{
+ clear: both;	
+}
+
+.right-bar
+{
+    float: right;
+	background: rgba(62,59,57,0.7);
+	width: 300px;
+	padding:28px;
+	height:600px;
+	box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.5), 0px 0px 6px 0px rgba(255,255,255,0.9);
+	text-shadow: 1px 1px 0px rgba(0,0,0,0.4);
+}
+.right-bar a,ul {
+	color: #FFF;
+	list-style: none;
+	
+}
+.right-bar ul li {
+	
+	padding: 20px 0 20px 0;
+	border-top: solid 1px #8F8F8E;
+	position:relative;
+	right:40px;
+}
+
+.article
+{
+	
+    margin: 10px;
+    background: orange;
+	color : #FFF;
+    padding:10px;
+	
+}

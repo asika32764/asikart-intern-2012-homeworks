@@ -1,0 +1,40 @@
+.jpg{
+    width:300px;
+    height:300px;
+    border:2px solid;
+    border-color: black;
+    padding:5px;
+    margin:2px;
+}
+td.demo{
+    width:300px;
+    height:300px;
+    border:2px solid;
+    border-color: black;
+    padding:5px;
+    margin:2px;
+}
+div.album{
+    font-size: large;
+    width: 350px;
+	height: 350px;
+	border: 1px solid #000;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	color: blue;
+	line-height: 20;
+}
+div.album:hover{
+    color: red;
+    font-weight: bolder;
+    font-size: large;
+}
+    
+div#think{	background: center url(讓我想一想.jpg) no-repeat;}    
+div#lonely{	background: center url(還是會寂寞.jpg) no-repeat;}
+div#princess{	background: center url(123.jpg) no-repeat; }
+div#groupies{	background: center url(吉他手.jpg) no-repeat;}
+div#adventure{	background: center url(華麗的冒險.jpg) no-repeat;}
+div#live{	background: center url(陳綺貞2005-2006花的姿態演唱會經典實錄.jpg) no-repeat;}
+div#sun{	background: center url(太陽.jpg) no-repeat;}

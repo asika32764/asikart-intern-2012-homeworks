@@ -1,0 +1,156 @@
+#index {background-color:#080808;
+      }
+#wrapper{
+        background:url(images/header2.png);
+        width:1000px;
+        height:550px;
+        margin:1% auto;
+        position:relative;
+        
+        
+        
+}
+
+}
+#main-body{}
+#header {background:url(images/header-01.gif) no-repeat center;
+         width: 1000px;
+         height: 200px;
+         margin:0 auto;}
+#header a{
+        display: block;
+        width: 1000px;
+        height: 200px;
+        margin:0 auto;
+}
+        
+#left-bar,#right-bar{
+            width: 150px;
+            height: 310px;
+    
+            
+}
+
+#left-bar,#content{float: left;
+                   
+}
+#content{ background:url(images/div-bgcolor-bk.png);
+          width: 700px;
+          height:330px;
+}
+#cc {width: 163px;
+     height: 150px;
+     background:url(images/div-bgcolor-bk.png);
+     margin: 6px;
+     padding: 0 auto;
+     float: left;
+     text-align: center;
+     color:#BDC0BA;
+}
+.c11 {width: 145px;
+      height: 110px;
+      position: absolute;
+      margin: 10px 0 0 9px;
+}
+#c1{background: url(images/photo-1.jpg);}
+#c2{background: url(images/photo-2.jpg);}
+#c3{background: url(images/photo-3.jpg);}
+#c4{background: url(images/photo-4.jpg);}
+#c5{background: url(images/photo-5.jpg);}
+#c6{background: url(images/photo-6.jpg);}
+#c7{background: url(images/photo-7.jpg);}
+#c8{background: url(images/photo-8.jpg);}
+
+#left-bar p{margin: 0px 30px 5px 25px;
+            text-align: center;
+}
+#left-bar  a {
+             display: block;
+             background:url(images/left-button-a.png);
+             width:80px;
+             height:20px;
+             padding: 10px;
+             color: #eaf2f5;
+             text-decoration: none;
+             
+             
+             
+}
+#left-bar  a:hover{
+             background:url(images/left-button-hover.png);
+             width:80px;
+             height:20px;
+             padding: 10px;
+             color: #169ad1;
+             font-weight: bold;
+}
+#right-bar{float: right;
+}
+.fb,.go,.tw { width: 60px;
+              height: 60px;
+              margin: 0 auto;
+       
+}
+.fb a,.go a,.tw a {
+                   display: block;
+                   width: 60px;
+                   height: 60px;
+}
+.fb a {background: url(images/icon-fb.png) top;
+}
+.fb a:hover{background: url(images/icon-fb.png) bottom;
+}
+.go a {background: url(images/icon-go.png) top;
+}
+.go a:hover{background: url(images/icon-go.png) bottom;
+}
+.tw a {background: url(images/icon-tw.png) top;
+}
+.tw a:hover{background: url(images/icon-tw.png) bottom;
+}
+
+#footer{
+        float: left;
+        width: 1000px;
+        height: 20px;
+        color: #3C2F41;
+        margin: 0 auto;
+        text-align: center;
+}
+/*winnie.html*/
+#aboutwinnie1 {width: 680px;
+              height: 330px;
+              font-size: 15px;
+              color: #fff;
+              font-weight: bold ;
+              font-family: sans-serif;
+              margin:10px;
+}
+.myphoto h1 {margin:0 0 0 210px;}
+hr {border: 1px dashed;
+    margin: 0 0 10px 0;
+    clear: both;}
+#aboutwinnie1 p {line-height: 150%;}
+.myphoto a{background:url(images/myphoto.jpg);
+          width: 200px;
+          height: 150px;
+          float: left;}
+.myphoto a:hover{background:url(images/dd.jpg);float: left;}
+/*iframe*/
+#content iframe{
+          width: 700px;
+          height:330px;
+}
+
+/*contact.html*/
+.namecard h1 {
+              
+}
+.namecard a{background:url(images/dog.jpg);
+          width: 500px;
+          height: 296px;
+          display: block;
+          margin: 10px  auto;
+         
+}
+.namecard a:hover{background:url(images/namecard.gif);}

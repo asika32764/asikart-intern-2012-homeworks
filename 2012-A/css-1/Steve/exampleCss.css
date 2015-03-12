@@ -1,0 +1,71 @@
+
+/*season*/
+
+ol li{
+    color:#F75C2F;
+}
+
+
+#K{
+    color:#51A8DD;
+}    
+
+#K:hover{
+    color:#005CAF;
+    font-size: 25px;
+    text-decoration: line-through;
+}
+#LQ{
+    color:#91B493;
+}
+#LQ:hover{
+    color:#42602D;
+    font-style: italic;
+    font-size:25px;
+} 
+#BT{
+    color:#8A6BBE;
+}
+#BT:hover{
+    color:#70649A;
+    font-size:25px;
+    letter-spacing:5px;
+}
+#F{
+    color:#E03C8A;
+}
+#F:hover{
+    color:##562E37;
+    font-size:25px;
+    border:double;
+}
+
+#seemore{
+    color:#DAC9A6;
+    text-decoration: underline;
+}
+#seemore::before{
+    background:white;
+    color:#876633;
+    text-decoration: underline;
+    font-size:18px; 
+    content:"if you want to see more,than ";
+}
+
+#seemore:hover{
+    color:#BA9132;
+    font-size:20px;
+    text-decoration:underline;
+}
+
+#back::after{
+    content:"back to top";
+    display:  block;
+    width:100;
+   background-color:yellow;
+   padding: 30 30 30 30;
+}
+
+
+    
+} 

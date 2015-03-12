@@ -1,0 +1,95 @@
+﻿body{
+	background-color: #061907 ;
+	font-family: 微軟正黑體 ;
+}
+#banner{
+	background: url(images/timeline.png) no-repeat center;
+	width: 70% ;
+	height: 30% ;
+	margin: 10px auto ;
+}
+#mainbody{
+	width: 70% ;
+	height: 30% ;
+	margin: 0px auto ;
+}
+#leftbar{
+	background-color: #0d2b0b ;
+	width: 30% ;
+	height: 950px ;
+	float: left ;
+	margin: 0px auto ;
+}
+
+#rightbar{
+	background-color: #0d2b0b ;
+	width: 69% ;
+	height: 950px ;
+	float : right ;
+	margin: 0px auto  ;
+}
+
+#fb,#google,#twitter,#RSS{
+	width: 60px;
+	height: 60px ;
+	float: left ;	
+	margin: 0px 4px ;	
+}
+#fb a,#google a,#twitter a,#RSS a{
+	display: block;
+	width: 63px ;
+	height: 60px ;
+}
+#bighead{
+	background: url(images/bighead.jpg) center no-repeat ;
+	width: 220px ;
+	height: 280px ;
+	margin: 10px auto ;
+}
+#footer{
+	text-align: center ;
+	color: white ;
+}
+#fb{background: url(images/facebook-icon.png) ;}
+#google{background: url(images/google-icon.png) ;}
+#twitter{background: url(images/Twitter-Icon.png) ;}
+#RSS{background: url(images/RSS-icon.png) ;}
+#me{
+	color: #deebdd ;
+	text-align: center ;
+}
+
+.article{
+	color: #deebdd ;
+
+}
+.clearfloat{
+	float: clear both ;
+}
+.icon{
+	margin: 0px auto ;
+}
+.community{
+	position: relative ;
+}
+.title1{
+	font-weight: bold ;
+	display:block;
+	background-color: #7D6041 ;
+	text-align: center ;
+	padding: 10px ;
+}
+.title2{
+	display:block;
+	font-weight: bold ;
+	background-color: #7D6041 ;
+	text-align: center ;
+	font-size: 22px;
+	padding: 10px ;
+	margin: 10px; 
+}
+.article>p{
+	margin: 0px 20px ;
+	font-size: 16px ;
+	text-indent: 2em ;
+}
